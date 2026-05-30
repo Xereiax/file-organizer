@@ -97,7 +97,7 @@ btn_start.pack(pady=(0,15))
 btn_stop = ctk.CTkButton(app, text="Stop Organizing", command=stop_organizer, width=200, fg_color="red", hover_color="darkred", state="disabled")
 btn_stop.pack(pady=5)
 
-label_log = ctk.CTkLabel(app, text ="Activitiy Log:")
+label_log = ctk.CTkLabel(app, text ="Activity Log:")
 label_log.pack(pady=(15,5))
 
 textbox = ctk.CTkTextbox(app, width=560, height=200, state ="disabled")
